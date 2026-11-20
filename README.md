@@ -71,8 +71,8 @@ pip install -r requirements.txt
 ### 1. 克隆并安装
 
 ```bash
-git clone https://github.com/shyqy/predict-app.git
-cd predict-app
+git clone https://github.com/shyqy/Biomass-Supercapacitor-SC-Prediction.git
+cd Biomass-Supercapacitor-SC-Prediction
 python -m venv .venv
 
 # Windows (PowerShell)
@@ -141,7 +141,7 @@ print("RMSE:", mean_squared_error(y_te, pred_te) ** 0.5)
 ## 项目结构
 
 ```
-predict-app/
+Biomass-Supercapacitor-SC-Prediction/
 ├── 运行窗口.py        # 入口：读数据 → 训练堆叠模型 → 启动 Tkinter 预测界面
 ├── Data.xlsx          # 训练数据（697 行 × 13 列）
 ├── requirements.txt
